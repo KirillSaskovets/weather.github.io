@@ -1,0 +1,426 @@
+@font-face {
+    font-family: "YO GOTHIC";
+    src: url("./ttf/yugothib.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+ .weather{
+    position: absolute;
+    width: 375px;
+    height: 812px;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    font-family:  YO GOTHIC;
+
+    
+ }
+
+ .currenticon{
+    position: absolute;
+    width: 170px;
+    height: 128px;
+    left: 33px;
+    top: 48px;
+    background: white;
+    margin: 0px;
+ }
+ 
+ .mesto{
+    position: absolute;
+    width: 302px;
+    height: 37px;
+    left: 36px;
+    top: 246px;
+    /* background: white; */
+ }
+ 
+ .today{
+    position: absolute;
+    width: 296px;
+    height: 87.92px;
+    left: 33px;
+    top: 323px;
+    background: white;
+ }
+ .BOX{
+    width: 296px;
+    height: 90px;
+    left: 39px;
+    top: 323px;
+    
+ }
+.currentdate{
+    position: sticky;
+    width: 150px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family:  YO GOTHIC;
+}
+
+.currenttemp{
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 125px;
+    top: 0px;
+    font-family:  YO GOTHIC;
+}
+
+.time {
+    position: absolute;
+    width: 296px;
+    height: 90px;
+    left: 0px;
+    top: 30px;
+}
+
+.time div {
+    width: 25%;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    font-family:  YO GOTHIC;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.muchtemp {
+    position: absolute;
+    width: 296px;
+    height: 90px;
+    left: 0px;
+    top: 45px;
+}
+
+.muchtemp div {
+    width: 25%;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:  YO GOTHIC;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.prognoz{
+    position: sticky;
+    width: 277px;
+    height: 271px;
+    left: 49px;
+    top: 481px;
+    }
+
+.day1 {
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 3.2%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+    font-family:  YO GOTHIC;
+}
+
+.day2 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 25.57%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.day3 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 44.75%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.day4 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 64.84%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.day5 {
+    font-family:  YO GOTHIC;
+    position: absolute;
+    left: 0%;
+    right: 67.46%;
+    top: 85.39%;
+    bottom: 85.39%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+
+.icon1 img{
+        top: 3.2%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        
+        height: 37px;
+        }
+        
+    .icon2 img{
+        top: 25.57%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        }
+        
+    .icon3 img{
+        top: 44.75%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        }
+        
+    .icon4 img{
+        top: 64.84%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        
+        }
+        
+    .icon5 img{
+        top: 85.39%;
+        position: absolute;
+        left: 88.36%;
+        right: 0%;
+        bottom: 84.93%;
+        width: 37px;
+        height: 37px;
+        }
+        
+    .maxtemp1{
+        font-family:  YO GOTHIC;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        top: 3.2%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+        
+    .mintemp1{
+        font-family:  YO GOTHIC;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        top: 3.2%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+    .maxtemp2{
+        font-family:  YO GOTHIC;
+        top: 25.57%;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+        
+    .mintemp2{
+        font-family:  YO GOTHIC;
+        top: 25.57%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+    .maxtemp3{
+        font-family:  YO GOTHIC;
+        top: 44.75%;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+        
+    .mintemp3{
+        font-family:  YO GOTHIC;
+        top: 44.75%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+    
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+        .maxtemp4{
+            font-family:  YO GOTHIC;
+            top: 64.84%;  
+            position: absolute;
+            left: 60%;
+            right: 45.97%;
+            bottom: 83.11%;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            display: flex;
+            align-items: center;
+            color: black;
+            height: 37px;
+        }
+        
+    .mintemp4{
+        font-family:  YO GOTHIC;
+        top: 64.84%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+    
+    .maxtemp5{
+        font-family:  YO GOTHIC;
+        top: 85.39%;
+        position: absolute;
+        left: 60%;
+        right: 45.97%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
+       
+    .mintemp5{
+        font-family:  YO GOTHIC;
+        top: 85.39%;
+        position: absolute;
+        left: 75%;
+        right: 0%;
+        bottom: 83.11%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        display: flex;
+        align-items: center;
+        color: black;
+        height: 37px;
+        }
